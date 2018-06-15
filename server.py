@@ -671,11 +671,11 @@ if __name__=='__main__':
     time_error = 28384
     #time_error = 0
     # Params
-    acc_key = "6a941c2aa5b74811946eebfe8ac17f07"
-    sec_key = "641dee4aa256b9f06e07699804ecda21"
-    bm_acc_key = "bH4VwNUr70OzV05vIlAYsFENvmqay4kF"
-    bm_sec_key = "Vk8MaxKg3CDju3Hd0b2vQ4gYVxY0ESgrnmYiuAmFNvm"
-    recall_url = "http://123.57.172.162:3000/api/back_result"
+    acc_key = "your access key"
+    sec_key = "your secure key"
+    bm_acc_key = "your return access key"
+    bm_sec_key = "your return secure key"
+    recall_url = "your return back api"
     model_path = "./backend_api/save_model"
     config_path = "./backend_api/save_model/config.json"
 
