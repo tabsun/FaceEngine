@@ -1,0 +1,14 @@
+{
+  "scorer_params": 
+  	{"dims": [128, 512]}, 
+  "featurer_params": 
+  	{"type": "resnet101", "gpu_id": 0, "dims": {"facenet":[128, 768],"resnet101":[512]}, "batchsize": 20}, 
+  "detector_params": 
+  	{"type": "DLIB", "minSize": 160, "factor": 0.5, "threshold":[0.8, 0.8, 0.9], "gpu_id": 0}, 
+  "attricalcor_params": 
+  	{"type": "caffe_attr", "gpu_id": 0}, 
+  "anglejudger_params": 
+        {"type": "dynamic"},
+  "ajuster_params": 
+        {"type": "caffe_106"}
+}
